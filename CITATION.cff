@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this toolkit, cite the exact release or commit you reviewed."
+title: "Playa AI Privacy Toolkit"
+type: software
+authors:
+  - name: "Playa AI contributors"
+repository-code: "https://github.com/PlayaAI/playa-ai-privacy-toolkit"
+url: "https://github.com/PlayaAI/playa-ai-privacy-toolkit"
+license: "CC-BY-SA-4.0 AND CC0-1.0 AND Apache-2.0"
+version: "0.2.0-dev"
+date-released: "2026-07-15"
+abstract: >-
+  An open governance standard and implementation toolkit for giving people and
+  communities meaningful control over how data is collected, used, shared,
+  retained, and used by AI systems.

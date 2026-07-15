@@ -1,0 +1,43 @@
+name: Control proposal
+description: Propose a new or revised normative control.
+title: "[Control]: "
+labels: ["control-proposal", "public-review"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include personal data, confidential information, or privileged advice.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and affected people
+      description: Describe the problem, power relationship, and who may benefit or be harmed.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed requirement
+      description: Use testable MUST, SHOULD, or MAY language and identify affected control IDs.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and verification
+      description: What evidence would demonstrate implementation? Cite primary sources where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Cost, equity, and implementation impact
+      description: Address accessibility, affected communities, and resource-constrained organizations.
+    validations:
+      required: true
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Relevant interests or conflicts
+      description: Disclose financial, employment, client, advocacy, or other material interests.
+    validations:
+      required: true

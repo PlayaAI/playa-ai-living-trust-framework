@@ -1,0 +1,298 @@
+schema_version: "0.1"
+standard:
+  name: "Playa AI Data Dignity Standard"
+  version: "0.2.0-dev"
+  status: "working-draft"
+  conformance_claims_allowed: false
+  canonical_repository: "https://github.com/PlayaAI/playa-ai-privacy-toolkit"
+
+evidence_states:
+  - not_evaluated
+  - documented
+  - implemented
+  - verified
+  - exception
+
+controls:
+  - id: GOV-01
+    family: governance
+    title: Accountable governance owner
+    applies_when: "always"
+    requirement: >-
+      The adopter MUST identify an accountable owner for privacy and AI data
+      governance with authority to stop or remediate nonconforming processing.
+    evidence:
+      - role_assignment
+      - escalation_path
+      - decision_record
+
+  - id: GOV-02
+    family: governance
+    title: Pre-deployment impact assessment
+    applies_when: "processing_is_new_or_materially_changed"
+    requirement: >-
+      Material new or changed processing MUST receive a documented privacy and
+      human-impact assessment before deployment.
+    evidence:
+      - completed_assessment
+      - approval_record
+      - mitigation_plan
+
+  - id: EVD-01
+    family: evidence
+    title: Control evidence and remediation
+    applies_when: "always"
+    requirement: >-
+      The adopter MUST retain current evidence sufficient to test each applicable
+      control and MUST record material failures and remediation.
+    evidence:
+      - evidence_register
+      - test_results
+      - exception_log
+
+  - id: INV-01
+    family: inventory
+    title: Data and AI flow inventory
+    applies_when: "always"
+    requirement: >-
+      The adopter MUST maintain a current inventory of personal and relational
+      data flows, including sources, purposes, recipients, systems, locations,
+      retention, and AI uses.
+    evidence:
+      - processing_inventory
+      - data_flow_map
+      - owner_attestation
+
+  - id: PUR-01
+    family: purpose
+    title: Purpose and authority
+    applies_when: "always"
+    requirement: >-
+      Each processing purpose MUST have a documented legal and organizational
+      justification. Material incompatible reuse MUST undergo new review, notice,
+      and choice where required.
+    evidence:
+      - purpose_register
+      - legal_basis_analysis
+      - change_record
+
+  - id: MIN-01
+    family: minimization
+    title: Necessary and proportionate processing
+    applies_when: "always"
+    requirement: >-
+      Collection, derivation, access, disclosure, and retention MUST be limited
+      to what is necessary and proportionate for documented purposes.
+    evidence:
+      - field_level_justification
+      - access_review
+      - minimization_test
+
+  - id: TRN-01
+    family: transparency
+    title: Timely and accurate notice
+    applies_when: "people_are_affected_by_processing"
+    requirement: >-
+      People MUST receive accurate, accessible, layered information about material
+      data practices before or when the relevant processing occurs.
+    evidence:
+      - published_notice
+      - interface_capture
+      - accuracy_review
+
+  - id: CON-01
+    family: consent
+    title: Valid and reversible consent
+    applies_when: "consent_is_used"
+    requirement: >-
+      Consent MUST be specific, informed, affirmative, recorded, and as easy to
+      withdraw as to give. Refusal MUST NOT be penalized unless the processing is
+      genuinely necessary for the requested service.
+    evidence:
+      - consent_record
+      - interface_test
+      - withdrawal_test
+
+  - id: RGT-01
+    family: rights
+    title: Rights request operations
+    applies_when: "a_right_applies_in_context"
+    requirement: >-
+      The adopter MUST operate authenticated request workflows for rights that
+      apply in the relevant jurisdiction and MUST explain denials, limits, and
+      appeal options.
+    evidence:
+      - request_procedure
+      - request_log
+      - identity_safeguards
+      - response_test
+
+  - id: SHR-01
+    family: sharing
+    title: Controlled recipients and processors
+    applies_when: "data_is_disclosed_or_external_access_is_enabled"
+    requirement: >-
+      Disclosures and processor access MUST be purpose-limited, contractually
+      controlled, inventoried, and periodically reviewed.
+    evidence:
+      - recipient_register
+      - contract_review
+      - diligence_record
+      - access_review
+
+  - id: SEC-01
+    family: security
+    title: Risk-proportionate safeguards
+    applies_when: "always"
+    requirement: >-
+      The adopter MUST maintain risk-proportionate administrative, technical, and
+      physical safeguards across the data lifecycle.
+    evidence:
+      - threat_model
+      - control_test
+      - access_log_review
+      - remediation_record
+
+  - id: INC-01
+    family: incidents
+    title: Privacy and security incident response
+    applies_when: "always"
+    requirement: >-
+      The adopter MUST maintain and test a process for identifying, containing,
+      investigating, documenting, and notifying material privacy or security incidents.
+    evidence:
+      - response_plan
+      - exercise_record
+      - incident_register
+
+  - id: RET-01
+    family: retention
+    title: Enforced retention rules
+    applies_when: "data_is_retained"
+    requirement: >-
+      Each data category MUST have an approved retention rule tied to purpose and
+      legal requirements. Expiration MUST trigger deletion, irreversible
+      de-identification, or a documented exception.
+    evidence:
+      - retention_schedule
+      - automated_job_evidence
+      - exception_log
+
+  - id: DEL-01
+    family: deletion
+    title: Accurate deletion scope
+    applies_when: "deletion_is_offered_or_required"
+    requirement: >-
+      Deletion claims MUST distinguish active systems, replicas, backups, legal
+      holds, logs, derived data, third-party copies, and de-identified data.
+      Completion and limitations MUST be communicated accurately.
+    evidence:
+      - deletion_map
+      - execution_log
+      - backup_procedure
+      - user_response_sample
+
+  - id: AI-01
+    family: ai
+    title: AI system inventory
+    applies_when: "ai_systems_are_developed_or_used"
+    requirement: >-
+      The adopter MUST inventory AI models and systems, their providers, purposes,
+      data inputs, outputs, retention, decision role, and affected people.
+    evidence:
+      - ai_system_register
+      - architecture_record
+      - data_flow_map
+
+  - id: AI-02
+    family: ai
+    title: AI data provenance and authorization
+    applies_when: "data_is_used_by_an_ai_system"
+    requirement: >-
+      Personal or relational data used for training, fine-tuning, evaluation,
+      retrieval, or feedback MUST have documented provenance, authorization,
+      restrictions, and downstream handling.
+    evidence:
+      - dataset_card
+      - provenance_record
+      - permission_review
+      - contract_review
+
+  - id: AI-03
+    family: ai
+    title: Sensitive inference restrictions
+    applies_when: "ai_could_infer_or_act_on_sensitive_traits"
+    requirement: >-
+      The adopter MUST NOT infer or act on highly sensitive traits without a
+      documented necessity, lawful basis, impact assessment, and safeguards
+      proportionate to potential harm.
+    evidence:
+      - feature_review
+      - impact_assessment
+      - evaluation_results
+      - approval_or_prohibition
+
+  - id: AI-04
+    family: ai
+    title: Oversight and contestability
+    applies_when: "ai_can_materially_affect_people"
+    requirement: >-
+      AI systems capable of materially affecting people MUST be evaluated for
+      foreseeable privacy harms, meaningful human oversight, contestability,
+      monitoring, and suspension.
+    evidence:
+      - evaluation_report
+      - human_review_workflow
+      - monitoring_record
+      - stop_criteria
+
+  - id: AI-05
+    family: ai
+    title: Honest model retention and deletion disclosures
+    applies_when: "people_supply_data_to_or_request_deletion_from_ai_systems"
+    requirement: >-
+      Notices and deletion responses MUST accurately explain model-provider
+      retention, training choices, memorization risks, output limitations, and
+      whether removal from trained parameters is technically supported.
+    evidence:
+      - provider_terms_review
+      - configuration_evidence
+      - tested_notice
+      - tested_deletion_response
+
+  - id: REL-01
+    family: relational_data
+    title: Relational and collective impact
+    applies_when: "data_materially_represents_multiple_people_or_a_community"
+    requirement: >-
+      Processing MUST assess competing rights, collective harms, cultural
+      expectations, and an appropriate participation or redress mechanism.
+    evidence:
+      - relational_data_assessment
+      - consultation_record
+      - safeguard_record
+
+  - id: CHD-01
+    family: children
+    title: Child-centered processing
+    applies_when: "product_is_likely_to_be_accessed_by_children"
+    requirement: >-
+      The adopter MUST determine applicable age and authorization rules and apply
+      child-centered defaults, minimization, safety, and understandable notices.
+    evidence:
+      - audience_assessment
+      - age_design_record
+      - child_rights_impact_review
+
+  - id: VUL-01
+    family: vulnerable_contexts
+    title: Enhanced safeguards for constrained choice
+    applies_when: "people_may_have_heightened_vulnerability_or_impaired_choice"
+    requirement: >-
+      Processing MUST apply enhanced necessity, consent, accessibility, safety,
+      and human-review safeguards.
+    evidence:
+      - context_assessment
+      - interface_test
+      - escalation_record
+      - human_review_record

@@ -1,0 +1,39 @@
+name: Implementation report
+description: Share evidence, friction, failures, or lessons from an implementation.
+title: "[Implementation]: "
+labels: ["implementation", "evidence"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Organization and system context
+      description: Share only information you are authorized to make public. Do not include personal data.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Toolkit version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: controls
+    attributes:
+      label: Controls evaluated
+      description: List control IDs, evidence types, and any exceptions.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results and failures
+      description: Describe what worked, what failed, cost, user impact, and remediation.
+    validations:
+      required: true
+  - type: checkboxes
+    id: representation
+    attributes:
+      label: Representation
+      options:
+        - label: I am authorized to share this information publicly and removed personal or confidential data.
+          required: true

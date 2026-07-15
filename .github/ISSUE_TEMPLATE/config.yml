@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/PlayaAI/playa-ai-privacy-toolkit/security/advisories/new
+    about: Report vulnerabilities and sensitive security concerns privately.
+  - name: Governance and contribution guide
+    url: https://github.com/PlayaAI/playa-ai-privacy-toolkit/blob/main/CONTRIBUTING.md
+    about: Read the contribution and governance requirements before proposing a material change.
