@@ -1,7 +1,9 @@
 # Preliminary Brand and Name Review
 
-**Review date:** 2026-07-15  
-**Proposed name:** The Playa AI Living Trust Framework  
+**Review date:** 2026-07-15
+
+**Proposed name:** The Playa AI Living Trust Framework
+
 **Fallback name:** Playa AI Community AI Stewardship Framework
 
 ## Status
