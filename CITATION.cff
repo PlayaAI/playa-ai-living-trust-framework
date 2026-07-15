@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this toolkit, cite the exact release or commit you reviewed."
+title: "The Playa AI Living Trust Framework"
+type: software
+authors:
+  - name: "Mystic Arts Foundation and Playa AI contributors"
+repository-code: "https://github.com/PlayaAI/playa-ai-living-trust-framework"
+url: "https://playa-ai.org/living-trust-framework"
+license: "CC-BY-SA-4.0 AND CC0-1.0 AND Apache-2.0"
+version: "0.2.0-dev"
+date-released: "2026-07-15"
+abstract: >-
+  An open community AI stewardship resource that helps artists, builders and
+  cultural organizations decide how AI enters their creative and cultural spaces.
