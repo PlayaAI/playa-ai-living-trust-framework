@@ -1,4 +1,6 @@
-# Playa AI Data Dignity Standard
+# Data Stewardship Profile
+
+**Framework:** The Playa AI Living Trust Framework
 
 **Version:** 0.2.0-dev
 
@@ -8,7 +10,9 @@
 
 ## 1. Purpose
 
-This standard translates the project's charter into requirements that can be assigned, implemented, evidenced, tested, and improved. It is designed for organizations that process personal or relational data in digital products, particularly when AI systems are involved.
+This profile translates the Framework's consent, privacy and data-stewardship domain into requirements that can be assigned, implemented, evidenced, tested and improved. It is designed for artists, builders and cultural organizations that process personal or relational data, particularly when AI systems are involved.
+
+The profile is one component of the broader [Living Trust Framework](../FRAMEWORK.md). It does not claim to cover every cultural-stewardship question concerning authorship, creative labor, community authority or cultural memory.
 
 It is jurisdiction-neutral by design. It does not replace a legal analysis, required privacy notice, data-protection impact assessment, AI impact assessment, security program, or contract.
 
@@ -43,7 +47,7 @@ Each applicable control receives one evidence state:
 | Verified | A reviewer independent of the control owner tested evidence and recorded results |
 | Exception | A time-bound, approved deviation and remediation plan exists |
 
-Self-assessment is not independent assurance. Until the project publishes conformance and assessor requirements, no evidence state authorizes a claim of “Playa AI certified,” “approved,” or equivalent endorsement.
+Self-assessment is not independent assurance. Until the project publishes conformance and assessor requirements, no evidence state authorizes a claim of “Living Trust certified,” “Playa AI approved,” or equivalent endorsement.
 
 ## 5. Baseline controls
 
@@ -118,7 +122,7 @@ Open-ended exceptions do not satisfy this standard.
 
 ## 7. Public claims
 
-An adopter discussing this draft SHOULD state:
+An adopter discussing this profile SHOULD state:
 
 - The exact version or commit used
 - Assessment scope and evidence state
@@ -138,5 +142,6 @@ Before a stable release, the project must add:
 - Worked evidence examples and implementation tests
 - Formal conformance and independent assurance rules
 - Pilot findings and affected-community review
+- Reviewed interfaces with EELP and future cultural-stewardship profiles
 
 Public review should challenge whether each control is necessary, testable, affordable, resistant to gaming, and protective of people with the least power.

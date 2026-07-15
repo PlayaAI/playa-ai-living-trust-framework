@@ -1,10 +1,19 @@
-schema_version: "0.1"
-standard:
-  name: "Playa AI Data Dignity Standard"
+schema_version: "0.2"
+framework:
+  name: "The Playa AI Living Trust Framework"
+  subtitle: "A Community AI Stewardship Toolkit for Artists, Builders and Cultural Organizations"
+  publisher: "Mystic Arts Foundation"
+  initiative: "Playa AI"
+  program: "On Our Own Terms"
+  status: "working-draft"
+  canonical_repository: "https://github.com/PlayaAI/playa-ai-living-trust-framework"
+  conformance_claims_allowed: false
+
+profile:
+  id: "data-stewardship"
+  name: "Data Stewardship Profile"
   version: "0.2.0-dev"
   status: "working-draft"
-  conformance_claims_allowed: false
-  canonical_repository: "https://github.com/PlayaAI/playa-ai-privacy-toolkit"
 
 evidence_states:
   - not_evaluated

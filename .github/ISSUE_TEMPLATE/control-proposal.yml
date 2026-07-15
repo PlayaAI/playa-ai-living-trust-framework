@@ -5,7 +5,7 @@ labels: ["control-proposal", "public-review"]
 body:
   - type: markdown
     attributes:
-      value: Do not include personal data, confidential information, or privileged advice.
+      value: Do not include personal data, confidential information, or privileged advice. Cultural-stewardship controls remain nonnormative until the engagement and promotion requirements in co-design/AGENDA.md are met.
   - type: textarea
     id: problem
     attributes:
@@ -41,3 +41,10 @@ body:
       description: Disclose financial, employment, client, advocacy, or other material interests.
     validations:
       required: true
+  - type: textarea
+    id: engagement
+    attributes:
+      label: Community engagement and dissent
+      description: For cultural-stewardship requirements, identify participating artists, cultural organizations and affected communities; participation support; unresolved dissent; and why the proposal is ready to become normative.
+    validations:
+      required: false

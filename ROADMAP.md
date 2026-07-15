@@ -8,7 +8,8 @@ This roadmap prioritizes credibility and adoption evidence over premature brandi
 
 - Complete repository governance, licensing, security, and contribution baseline
 - Separate charter, normative standard, implementation guidance, and legal templates
-- Resolve project name, legal-entity language, and third-party intellectual-property questions
+- Complete legal and trademark review of the Living Trust Framework name and non-legal-trust clarification
+- Establish the On Our Own Terms community-engagement process
 - Commission privacy, AI, open-source, and trademark review
 - Publish a transparent decisions and conflicts register
 - Open the v0.2 draft for structured public comment
@@ -20,11 +21,14 @@ This roadmap prioritizes credibility and adoption evidence over premature brandi
 **Target:** August–October 2026
 
 - Stabilize control taxonomy and machine-readable schema
+- Test the six stewardship domains through artist and cultural-organization co-design
+- Publish EELP as the field implementation protocol for AI-mediated experiences
 - Add evidence requirements, testing procedures, and exception handling
-- Map controls to selected established privacy, security, AI, and data-governance frameworks
+- Map the Data Stewardship Profile to selected established privacy, security, AI, and data-governance frameworks
 - Create jurisdictional overlays without presenting them as universal law
 - Build a self-assessment and evidence-pack generator
 - Threat-model consent, deletion, model training, relational data, and vendor flows
+- Draft and test the community decision guide, AI disclosure card, artist consent/authorship template, and cultural archive checklist
 
 **Exit evidence:** schema validation, worked examples, reproducible tests, and independent technical and legal review.
 
@@ -63,4 +67,5 @@ Repository stars are useful distribution signals, not impact. Primary measures s
 - AI datasets and uses with documented provenance and authorization
 - Material exceptions, failures, and remediation time
 - Participation and decision influence of affected communities
+- Artist and cultural-organization influence on proposed stewardship requirements
 - Adoption costs for small and resource-constrained organizations

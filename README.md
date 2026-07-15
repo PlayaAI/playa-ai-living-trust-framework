@@ -1,94 +1,106 @@
-# Playa AI Privacy Toolkit
+# The Playa AI Living Trust Framework
 
-**An open governance standard for giving people and communities meaningful control over how their data is collected, used, shared, retained, and used by AI.**
+## A Community AI Stewardship Toolkit for Artists, Builders and Cultural Organizations
+
+**The Playa AI Living Trust Framework is an open community AI stewardship resource that helps artists, builders and cultural organizations decide—on their own terms—how AI enters their creative and cultural spaces.**
 
 > [!IMPORTANT]
-> This repository is an early public-review project. It is not legal advice, a certification program, or a drop-in privacy notice. Organizations must adapt any template to their actual practices, technology, and applicable law.
+> “Living Trust” is the name of an evolving community-governance framework. It is not an estate-planning trust, fiduciary arrangement, certification or separate legal entity. This working draft is not legal advice and does not establish compliance or endorsement.
+
+On Our Own Terms is a Mystic Arts Foundation program delivered through Playa AI. The Playa AI Living Trust Framework is one of its openly licensed community resources.
 
 ## Why this exists
 
-Most privacy policies describe what an organization may do. The Playa AI Privacy Toolkit is designed to help organizations make narrower, testable commitments—and give people usable controls rather than ceremonial consent.
+AI is entering studios, installations, archives, workshops, performances, community gatherings and cultural institutions faster than many communities can decide what role it should play. The central question is not simply whether AI is permitted. It is who gets to decide, whose work and stories are involved, what meaningful consent requires, and how communities can change course.
 
-The project combines:
+The Framework connects six domains of stewardship:
 
-- A human-readable charter for data dignity and collective agency
-- An auditable standard with stable control identifiers
-- Machine-readable controls for engineering and assurance workflows
-- Adaptable privacy and AI notice templates
-- Open governance for public review and revision
+1. Community authority and participation
+2. Consent, privacy and data stewardship
+3. Creative agency, authorship and attribution
+4. Cultural memory and relational data
+5. AI disclosure, human override and contestability
+6. Accountability, learning and public benefit
 
-The long-term aim is public-interest infrastructure: a framework that lawyers can scrutinize, engineers can implement, communities can govern, and organizations can be held accountable against.
+Read the [Framework overview](FRAMEWORK.md) for the complete architecture.
 
-## Project status
+## Project architecture
 
 | Artifact | Status | Purpose |
 |---|---|---|
-| [Charter](CHARTER.md) | Draft | Values and non-negotiable commitments |
-| [Standard](standard/standard.md) | v0.2 working draft | Normative, auditable requirements |
-| [Control catalog](standard/controls.yml) | v0.2 working draft | Machine-readable control definitions |
-| [Privacy notice template](templates/privacy-notice.md) | Alpha | Adaptable disclosure structure |
-| [AI addendum](templates/ai-addendum.md) | Alpha | AI-specific disclosures and choices |
-| [Original synthesis](research/synthesis-public-draft.md) | Preserved public draft | Research provenance; not a deployable policy |
+| [Framework overview](FRAMEWORK.md) | v0.2 working draft | Stewardship domains and adoption model |
+| [Charter](CHARTER.md) | Draft | Values and constitutional commitments |
+| [Data Stewardship Profile](standard/standard.md) | v0.2 working draft | 22 auditable privacy and AI-data controls |
+| [Machine-readable catalog](standard/controls.yml) | v0.2 working draft | Framework, profile and control metadata |
+| [EELP integration](protocols/eelp.md) | Draft interface | Field protocol for AI-mediated experiences |
+| [On Our Own Terms](PROGRAM.md) | Program brief | Community need, activities, outputs and intended outcomes |
+| [Cultural stewardship agenda](co-design/AGENDA.md) | Open for co-design | Proposed domains that are not yet normative |
+| [Implementation resources](resources/README.md) | Planned and alpha | Practical tools for cultural organizations |
+| [Original synthesis](research/synthesis-public-draft.md) | Preserved public draft | Immutable research provenance under its historical name |
 
-No organization is currently certified or endorsed. Conformance criteria and independent assurance have not yet been established.
+No organization is certified or endorsed. Cultural-stewardship requirements will not become normative until they have received artist, cultural-organization and affected-community review.
 
-## Design commitments
+## How the pieces relate
 
-1. **Control, not ownership theater.** Give people enforceable choices without relying on legally uncertain claims that all personal data is property.
-2. **Truth over aspiration.** Published commitments must match deployed systems and verified operations.
-3. **Minimum necessary data.** Collection and retention require documented purposes, limits, and owners.
-4. **AI use is a distinct decision.** Service delivery does not silently authorize model training, profiling, or unrelated inference.
-5. **Relational data needs relational governance.** One person's choice cannot erase the legitimate interests and rights of everyone represented in shared data.
-6. **Deletion must be engineered.** Systems document active-store deletion, backup handling, derived-data treatment, and technical limitations.
-7. **Community voice is infrastructure.** Material changes receive notice, public reasoning, and a meaningful review path.
+- **The Living Trust Framework** provides the stewardship architecture.
+- **The Data Stewardship Profile** contains the current auditable controls for privacy, consent, security, retention, deletion and AI data use.
+- **EELP** operationalizes consent, disclosure, data minimization, human override and community accountability in events, installations, workshops and other AI-mediated experiences.
+- **Implementation resources** help communities deliberate, document choices and adapt practices without implying legal sufficiency.
 
 ## Start here
 
-For organizations evaluating adoption:
+### Artists and cultural organizations
 
-1. Read the [disclaimer](DISCLAIMER.md) and [charter](CHARTER.md).
-2. Inventory real data flows before drafting promises.
-3. Review the [standard](standard/standard.md) and record evidence for each applicable control.
-4. Adapt the templates; remove every statement your systems cannot prove.
-5. Obtain jurisdiction-specific privacy and product counsel.
-6. Publish your deviations, implementation status, and review date.
+1. Use the [community co-design questions](co-design/AGENDA.md) to identify who should participate in an AI decision.
+2. Review the [Framework domains](FRAMEWORK.md) before choosing tools or vendors.
+3. Apply EELP when AI participates in an experience involving people, stories, identity, memory or voice.
+4. Use the Data Stewardship Profile when personal or relational data is processed.
+5. Publish unresolved questions, limits and the date of the next community review.
 
-For contributors, read [CONTRIBUTING.md](CONTRIBUTING.md) and the [governance process](GOVERNANCE.md). Proposed normative changes should identify affected controls, evidence, implementation costs, and foreseeable harms.
+### Builders
+
+1. Inventory actual data and AI flows before drafting promises.
+2. Test applicable [Data Stewardship Profile controls](standard/standard.md) and record evidence.
+3. Remove every template statement that deployed systems cannot prove.
+4. Obtain jurisdiction-specific legal, privacy, security and accessibility review.
+
+### Contributors
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and [GOVERNANCE.md](GOVERNANCE.md). Proposals must identify affected people, evidence, implementation cost, foreseeable harms and relevant conflicts of interest.
 
 ## What this project is not
 
-- A substitute for a privacy notice required by applicable law
-- A representation that any organization has implemented these controls
-- A legal trust, fiduciary arrangement, regulator, or standards-accreditation body
-- Affiliated with or endorsed by Burning Man Project or any similarly named organization
-- Permission to use third-party names, principles, marks, or copyrighted material
+- A completed privacy notice, legal opinion or substitute for applicable law
+- A legal trust, data trust, fiduciary arrangement or separate legal entity
+- A representation that any adopter has implemented the controls
+- A certification, accreditation or endorsement program
+- Affiliated with or endorsed by Burning Man Project
+- Permission to use third-party names, marks, principles or copyrighted material
 
-See [TRADEMARKS.md](TRADEMARKS.md) for naming and attribution boundaries.
+See [DISCLAIMER.md](DISCLAIMER.md), [TRADEMARKS.md](TRADEMARKS.md) and the preliminary [brand review](BRAND_REVIEW.md).
 
-## Governance and roadmap
+## Governance and public review
 
-The project currently uses an interim maintainer model while it develops a representative council and public RFC process. See [GOVERNANCE.md](GOVERNANCE.md) and [ROADMAP.md](ROADMAP.md).
+The project uses an interim maintainer model while developing representative governance and a public RFC process. See [GOVERNANCE.md](GOVERNANCE.md), [DECISIONS.md](DECISIONS.md) and [ROADMAP.md](ROADMAP.md).
 
-The next major milestone is a legally reviewed v0.2 public consultation draft with jurisdiction-neutral controls, transparent mappings to established privacy and AI risk frameworks, and three pilot implementations.
+The v0.2 milestone is a public-consultation foundation—not a claim that community validation has already occurred. The [reference register](REFERENCES.md) tracks primary legal, regulatory, technical and governance sources.
 
-The [reference register](REFERENCES.md) tracks primary legal, regulatory, standards, and governance sources used during development. A reference is not a claim of endorsement or conformance.
+## Licensing and citation
 
-## Licensing
+Licenses are assigned by artifact type; names and marks are excluded. See [LICENSE.md](LICENSE.md). Citation metadata is available in [CITATION.cff](CITATION.cff).
 
-Different artifact types need different reuse rules. Documentation retains the original public draft's share-alike commitment; implementation assets are licensed for broad technical adoption; trademarks and third-party material are excluded. See [LICENSE.md](LICENSE.md).
+## Security
 
-## Security and responsible disclosure
-
-Do not report security vulnerabilities or expose personal data in a public issue. Follow [SECURITY.md](SECURITY.md).
-
-## Citation
-
-Citation metadata is available in [CITATION.cff](CITATION.cff). Until a numbered release is issued, cite the repository URL and the exact commit reviewed.
+Do not expose vulnerabilities, credentials, personal data or confidential community information in public issues. Follow [SECURITY.md](SECURITY.md).
 
 ---
 
 **Public review status:** v0.2 working draft
 
-**Maintainer:** PlayaAI
+**Publisher:** Mystic Arts Foundation
 
-**Repository:** https://github.com/PlayaAI/playa-ai-privacy-toolkit
+**Initiative:** Playa AI
+
+**Program:** On Our Own Terms
+
+**Repository:** https://github.com/PlayaAI/playa-ai-living-trust-framework

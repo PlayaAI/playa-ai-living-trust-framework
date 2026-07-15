@@ -6,6 +6,12 @@ The software and documentation licenses in this repository do not grant rights t
 
 No adopter may state or imply certification, sponsorship, partnership, or endorsement without separate written authorization.
 
+## Living Trust Framework
+
+“Living Trust” is the name of an evolving community-governance framework. It is not an estate-planning trust, fiduciary arrangement, certification or separate legal entity.
+
+The name remains subject to formal legal and trademark review. Until that review is complete, the project will not claim registration, exclusivity or third-party clearance. If counsel identifies an unacceptable conflict, the predetermined fallback name is **Playa AI Community AI Stewardship Framework**.
+
 ## Third-party names and principles
 
 The research draft discusses Burning Man-inspired ideas and other third-party frameworks. Burning Man Project and related names, marks, expressive works, and principles are not licensed by this repository. This project is not affiliated with or endorsed by Burning Man Project.

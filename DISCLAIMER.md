@@ -1,5 +1,9 @@
 # Legal and Implementation Disclaimer
 
+## The name does not create a trust
+
+“Living Trust” is the name of an evolving community-governance framework. It is not an estate-planning trust, fiduciary arrangement, certification or separate legal entity.
+
 ## Not legal advice
 
 This repository provides general educational materials and open-source drafting tools. It does not provide legal advice, create an attorney-client relationship, determine which laws apply, or guarantee compliance with any law, regulation, contract, or industry standard.
@@ -12,13 +16,13 @@ Do not publish a template as your privacy notice until every factual claim has b
 
 ## No certification or warranty
 
-The project does not currently certify, audit, approve, or endorse implementations. Use of the name, files, control identifiers, or self-assessment does not establish conformance.
+The project does not currently certify, audit, approve, or endorse implementations. Use of the Framework name, files, profile, control identifiers, protocols, or self-assessment does not establish conformance.
 
 The materials are provided without warranties or conditions of any kind. See the applicable license for the complete warranty and liability terms.
 
 ## Rights are context-dependent
 
-The toolkit distinguishes ethical commitments from legally enforceable rights. Access, deletion, correction, portability, objection, automated-decision, post-mortem, and collective rights differ across jurisdictions and may be limited by security, legal retention, freedom of expression, public interest, other people's rights, and technical feasibility.
+The Framework distinguishes ethical commitments from legally enforceable rights. Access, deletion, correction, portability, objection, automated-decision, post-mortem, and collective rights differ across jurisdictions and may be limited by security, legal retention, freedom of expression, public interest, other people's rights, and technical feasibility.
 
 ## Technical limitations
 

@@ -2,60 +2,60 @@
 
 ## Purpose
 
-The Playa AI Privacy Toolkit exists to make human and community agency over data operational in AI-enabled systems.
+The Playa AI Living Trust Framework exists to make human and community agency operational when AI enters creative and cultural spaces.
 
-We develop public-interest governance artifacts that connect values, legal duties, product choices, technical controls, evidence, and accountability. The project succeeds when people gain meaningful power and organizations can demonstrate—not merely announce—responsible data practices.
+We develop public-interest governance resources that connect cultural values, community authority, legal duties, creative practice, product choices, technical controls, evidence and accountability. The project succeeds when communities gain meaningful influence over AI adoption and organizations can demonstrate—not merely announce—responsible stewardship.
 
 ## Constitutional commitments
 
-### Human dignity
+### Community authority
 
-People are participants in digital systems, not raw material. Systems should preserve autonomy, context, safety, and the ability to contest harmful uses.
+People affected by an AI-mediated cultural decision should have a meaningful path to understand, influence, challenge and revisit it. Participation must be designed into the process rather than requested after deployment.
 
-### Purpose limitation
+### Human dignity and creative agency
 
-Data collected for one purpose is not an unrestricted resource for another. Material new uses require a documented legal and ethical basis, renewed notice, and an appropriate choice.
+People are participants and creators, not raw material. AI should support human expression without quietly appropriating identity, voice, labor, authorship, relationships or cultural meaning.
+
+### Consent and purpose limitation
+
+Consent is an ongoing relationship, not blanket permission. Data, stories and creative work gathered for one purpose are not unrestricted resources for training, profiling, publication or another use.
 
 ### Data minimization
 
-Organizations should collect, derive, disclose, and retain only what is necessary and proportionate to defined purposes.
+Organizations should collect, derive, disclose and retain only what is necessary and proportionate to defined purposes.
 
-### Meaningful agency
+### Cultural and relational stewardship
 
-Controls should be understandable, specific, accessible, and effective. Refusal or withdrawal should not be punished unless the relevant processing is genuinely necessary for the requested service.
+Stories, archives and creative artifacts can represent families, collaborators, communities and living cultures. Governance must consider people and groups represented or affected even when they are not the account holder or submitting artist.
 
-### Collective and relational rights
+### AI disclosure and human authority
 
-Data can describe families, communities, collaborators, and cultures. Governance must consider people who are represented or affected even when they are not the account holder.
-
-### AI accountability
-
-Training, fine-tuning, evaluation, inference, profiling, retrieval, and human review are distinct processing activities. Each needs explicit governance, provenance, risk assessment, and oversight.
+People should understand when AI is present, what role it plays and how to choose a meaningful non-AI path where practicable. Humans remain accountable for consequential judgments and must be able to pause or override systems.
 
 ### Verifiability
 
-Commitments must be supported by owners, controls, evidence, testing, and remediation. Aspirational language must be labeled as such.
+Commitments must be supported by owners, controls, evidence, testing and remediation. Aspirations, proposed practices and community-validated requirements must be labeled distinctly.
 
-### Open participation
+### Open participation and public benefit
 
-The framework should remain inspectable, forkable, and open to challenge. Material decisions should include reasons, conflicts of interest, dissent, and an accessible change history.
+Useful learning should return to the commons without exposing participants or appropriating community knowledge. Material decisions should include reasons, conflicts of interest, dissent and an accessible change history.
 
 ## Non-negotiable boundaries
 
 An implementation claiming alignment must not:
 
-- Sell personal data or exchange it for targeted advertising without prominent, specific disclosure and a legally valid choice
-- Treat service consent as blanket permission for unrelated AI training
-- Use dark patterns to obtain or retain permission
-- Claim deletion, encryption, anonymity, ownership, or human review capabilities that it cannot demonstrate
+- Treat attendance, creation or service consent as blanket permission for unrelated AI training
+- Use dark patterns, coercion or hidden AI participation
+- Claim deletion, anonymity, ownership, authorship, human review or community approval that it cannot demonstrate
 - Infer highly sensitive traits merely because doing so is technically possible
-- Retaliate against good-faith security, privacy, or governance reporting
+- Present proposed cultural-stewardship practices as community-validated before engagement occurs
+- Retaliate against good-faith artistic, cultural, security, privacy or governance reporting
 - Use participation in this project to imply certification or endorsement
 
-## Relationship to law
+## Relationship to law and culture
 
-This charter may intentionally ask more than a legal minimum, but it cannot replace applicable law. Where a charter commitment conflicts with a legal duty or another person's rights, an adopter should document the conflict, apply the narrowest necessary limitation, and explain the result transparently.
+This charter may intentionally ask more than a legal minimum, but it cannot replace applicable law or community-specific authority. Where commitments conflict with legal duties, intellectual-property rights, cultural protocols or another person's rights, an adopter should document the conflict, apply the narrowest necessary limitation and explain the result transparently.
 
 ## Stewardship
 
-The project is in an interim formation period. The governance system must evolve toward meaningful representation of affected people, privacy and security practitioners, engineers, civil-society experts, and adopters without allowing any one funder or vendor to control the standard.
+Mystic Arts Foundation publishes the Framework through Playa AI as part of On Our Own Terms. The project remains in an interim formation period. Governance must evolve toward meaningful representation of artists, cultural organizations, affected communities, privacy and security practitioners, engineers, civil-society experts and adopters without allowing any funder, vendor, founder or profession to control the Framework.

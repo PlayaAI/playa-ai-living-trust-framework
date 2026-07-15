@@ -2,6 +2,8 @@
 
 # Privacy Notice Template
 
+**Framework resource:** Data Stewardship Profile implementation template
+
 > [!WARNING]
 > This is an alpha drafting template, not legal advice or a completed notice. Delete instructions, complete every field, verify every statement against actual systems and vendors, and obtain jurisdiction-specific review before publication.
 

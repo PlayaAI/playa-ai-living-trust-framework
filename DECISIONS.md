@@ -50,3 +50,37 @@ The project will support documented, implemented, verified, and exception eviden
 
 - Early adopters can report exact scope and evidence without overstating approval.
 - Pilot findings can shape requirements before an assurance market develops.
+
+## D-003 — Rebrand around community AI stewardship
+
+**Status:** Proposed in v0.2 draft
+
+**Date:** 2026-07-15
+
+**Decision-maker:** Interim maintainer
+
+### Context
+
+The historical Privacy Toolkit name described only one part of the work. The Framework also addresses community authority, consent, creative agency, authorship, cultural memory, AI participation, human override and public accountability. The 2026 OpenAI Foundation People-First AI Fund separately emphasizes community participation in shaping AI within creative and cultural life.
+
+### Decision
+
+The public name will be **The Playa AI Living Trust Framework**, with the subtitle **A Community AI Stewardship Toolkit for Artists, Builders and Cultural Organizations**.
+
+The public hierarchy is:
+
+- Publisher and legal applicant: Mystic Arts Foundation
+- Initiative: Playa AI
+- Program: On Our Own Terms
+- Open resource: The Playa AI Living Trust Framework
+- Field implementation protocol: EELP
+- Current auditable controls: Data Stewardship Profile
+
+“Living Trust” is the name of an evolving community-governance framework. It is not an estate-planning trust, fiduciary arrangement, certification or separate legal entity.
+
+### Consequences
+
+- The v0.1 public-review release and research draft retain their historical names.
+- The 22 existing controls retain their identifiers and become the Data Stewardship Profile.
+- Cultural-stewardship domains remain a co-design agenda until reviewed through community engagement and pilots.
+- The project must complete legal and trademark review before asserting exclusive rights or marking v0.2 ready.

@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions are welcome from affected communities, privacy and security practitioners, lawyers, engineers, researchers, designers, translators, and implementers.
+Contributions are welcome from affected communities, artists, cultural workers and organizations, privacy and security practitioners, lawyers, engineers, researchers, designers, translators, and implementers.
 
 ## Before contributing
 
@@ -18,6 +18,8 @@ Contributions are welcome from affected communities, privacy and security practi
 - Jurisdictional overlays reviewed by qualified local counsel
 - Accessibility review and carefully reviewed translations
 - Research on collective, Indigenous, post-mortem, and children's data governance led by affected people
+- Artist- and community-led research on authorship, attribution, cultural memory and acceptable AI participation
+- Field learning from EELP implementations that protects participant privacy and cultural context
 
 ## Normative drafting rules
 
@@ -36,6 +38,8 @@ A normative proposal should include:
 5. Costs and impact on small organizations
 6. Alternatives considered
 7. Known limitations and open questions
+
+Proposals for cultural-stewardship controls must also document who participated, how participation was supported, what dissent remains, and why the proposal is ready to move beyond the [co-design agenda](co-design/AGENDA.md). A workshop or pilot alone does not establish community validation.
 
 Avoid universal legal claims. State the jurisdiction, effective date, authority, and relevant exceptions. Prefer legislation, regulators, standards bodies, and peer-reviewed research over marketing summaries.
 

@@ -2,6 +2,8 @@
 
 # AI Data-Use Addendum Template
 
+**Framework resource:** Data Stewardship Profile implementation template
+
 > [!WARNING]
 > Complete one record for each materially distinct AI use. This alpha template does not establish compliance or replace an impact assessment, provider review, product disclosure, or legal advice.
 

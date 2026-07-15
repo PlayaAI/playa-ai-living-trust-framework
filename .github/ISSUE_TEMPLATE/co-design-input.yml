@@ -1,0 +1,51 @@
+name: Cultural stewardship co-design input
+description: Share field learning or propose questions without treating them as normative controls.
+title: "[Co-design]: "
+labels: ["co-design", "public-review"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include participant identities, personal data, confidential cultural knowledge or materials you lack authority to share. Submitting input does not imply that a community endorsed the Framework.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and affected people
+      description: Describe the artistic or cultural context, who may be affected and your authority to share this input.
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Stewardship domain
+      options:
+        - Community authority and participation
+        - Consent, privacy and data stewardship
+        - Creative agency, authorship and attribution
+        - Cultural memory and relational data
+        - AI disclosure, human override and contestability
+        - Accountability, learning and public benefit
+    validations:
+      required: true
+  - type: textarea
+    id: learning
+    attributes:
+      label: Learning, concern or proposed question
+      description: Share what happened or what the Framework should ask. Do not draft a binding requirement unless the normative promotion conditions are met.
+    validations:
+      required: true
+  - type: textarea
+    id: participation
+    attributes:
+      label: Participation and dissent
+      description: Explain who participated, how they were supported, who was absent and what disagreement remains.
+    validations:
+      required: true
+  - type: checkboxes
+    id: authority
+    attributes:
+      label: Sharing safeguards
+      options:
+        - label: I have authority to share this material publicly and removed personal, confidential and culturally restricted information.
+          required: true
+        - label: I understand this input will not be described as community validation or automatically converted into a normative control.
+          required: true

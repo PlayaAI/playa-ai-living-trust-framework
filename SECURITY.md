@@ -6,7 +6,7 @@ Do not open a public issue for a vulnerability, exposed credential, private repo
 
 Use GitHub's private vulnerability reporting for this repository:
 
-https://github.com/PlayaAI/playa-ai-privacy-toolkit/security/advisories/new
+https://github.com/PlayaAI/playa-ai-living-trust-framework/security/advisories/new
 
 If that channel is unavailable, contact the repository owner privately through the `@PlayaAI` GitHub profile and request a secure reporting channel. Do not send sensitive evidence until a suitable channel is confirmed.
 
@@ -35,4 +35,4 @@ The project supports good-faith research that avoids privacy harm, service disru
 
 ## Supported versions
 
-Until the first numbered toolkit release, only the latest commit on `main` is supported. Historical research drafts are preserved for provenance and are not maintained implementation guidance.
+Until the first numbered Framework release, only the latest commit on `main` is supported. Historical research drafts are preserved for provenance and are not maintained implementation guidance.

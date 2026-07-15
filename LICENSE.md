@@ -18,7 +18,7 @@ Canonical license texts and links are listed in [LICENSES/README.md](LICENSES/RE
 
 For CC BY-SA material, a reasonable attribution is:
 
-> Adapted from the Playa AI Privacy Toolkit, version or commit `[IDENTIFIER]`, available at https://github.com/PlayaAI/playa-ai-privacy-toolkit, licensed CC BY-SA 4.0. Changes were made.
+> Adapted from the Playa AI Living Trust Framework, version or commit `[IDENTIFIER]`, available at https://github.com/PlayaAI/playa-ai-living-trust-framework, licensed CC BY-SA 4.0. Changes were made.
 
 ## No endorsement
 

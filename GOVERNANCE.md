@@ -2,7 +2,7 @@
 
 ## Current status
 
-The project is in an interim formation stage. The GitHub account `@PlayaAI` is the current maintainer and release steward. A representative Privacy Council has not yet been constituted, and the project will not imply otherwise.
+The project is in an interim formation stage. Mystic Arts Foundation is the publisher, Playa AI is the delivering initiative, and the GitHub account `@PlayaAI` is the current maintainer and release steward. A representative community stewardship council has not yet been constituted, and the project will not imply otherwise.
 
 This document governs repository decisions until a ratified multi-stakeholder governance charter replaces it.
 
@@ -35,6 +35,7 @@ Reviewers are contributors invited to assess defined subject areas. Reviews shou
 Before a stable `1.0` release, the project intends to constitute a council with meaningful participation from:
 
 - People and communities affected by data-intensive systems
+- Artists, cultural workers and cultural organizations
 - Privacy and consumer-protection practitioners
 - Security and AI engineers
 - Civil-society and human-rights experts
@@ -57,7 +58,7 @@ Changes begin as an issue or draft pull request that defines the problem, affect
 
 ### 3. Review
 
-Normative changes receive at least 30 calendar days of public review unless an urgent risk requires a temporary correction. Operational changes normally receive 14 days. Editorial changes may be merged after ordinary review.
+Normative changes receive at least 30 calendar days of public review unless an urgent risk requires a temporary correction. New cultural-stewardship requirements also require documented artist, cultural-organization and affected-community engagement before adoption. Operational changes normally receive 14 days. Editorial changes may be merged after ordinary review.
 
 An urgent change must document the risk, why normal review was unsafe, and when ordinary review will resume.
 
