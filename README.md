@@ -1,8 +1,16 @@
-# Playa AI Foundation Privacy Framework
-## Comparative Analysis & Synthesis
+# Playa AI Living Trust Framework
+## Comparative Analysis & Public-Review Synthesis
 
-**Analysis Date:** January 25, 2026  
-**Purpose:** Synthesize the strongest elements from multiple AI-generated privacy policy concepts into a definitive framework worthy of open-sourcing as a gift to the community.
+> [!IMPORTANT]
+> **Status:** v0.1.0 public-review research draft. This repository is not legal advice, a certification, a deployable privacy notice, or a finalized standard. The synthesis below includes historical AI-generated draft material, proposed practices, aspirational governance, and placeholders that are **not current Playa AI commitments** unless separately verified and adopted.
+>
+> **License status:** Under review. No open-source or content license is currently granted unless and until an approved `LICENSE` file is added.
+>
+> **Maintainer:** Playa AI · Public-review questions and feedback: hello@playa-ai.org
+
+**Analysis date:** January 25, 2026  
+**Public-review release:** v0.1.0 · July 15, 2026  
+**Purpose:** Preserve and review a comparative synthesis of multiple AI-generated privacy-policy concepts as research input for an evolving human-reviewed framework.
 
 ---
 
@@ -206,11 +214,14 @@ Doc 4 mentions "Data Dignity" and compensation for data labor, but no output add
 
 ---
 
-# PART 4: THE SYNTHESIS
+# PART 4: HISTORICAL DRAFT SYNTHESIS
+
+> [!WARNING]
+> The material in Parts 4–6 is preserved as a historical draft for comparative analysis. Its version numbers, dates, licenses, governance bodies, technical capabilities, timelines, and organizational commitments are proposals or placeholders—not current release metadata, deployed controls, or binding Playa AI policy.
 
 ---
 
-# The Playa AI Foundation Privacy Framework
+# Historical Draft: Playa AI Privacy Framework
 ## A Living Trust for the Digital Commons
 
 **Version:** 1.0  
@@ -487,14 +498,14 @@ Leave No Trace also means environmental responsibility:
 ### The Philosophy
 This policy is itself a gift. We developed it not to protect ourselves but to model what data governance could be. We offer it freely for others to use, adapt, and improve.
 
-### The License
-This framework is released under **Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)**. You may:
+### Historical License Proposal — Not in Force
+This draft proposed **Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)**. No license is currently in force for this repository unless and until an approved `LICENSE` file is added. You may:
 - Use it as your own privacy policy
 - Modify it for your context
 - Build upon it for commercial or non-commercial purposes
 
 You must:
-- Give appropriate credit to Playa AI Foundation
+- Give appropriate credit to Playa AI
 - Indicate if changes were made
 - Share adaptations under the same license
 
@@ -699,7 +710,7 @@ Welcome. Let's begin.
 
 ---
 
-*Playa AI Foundation*  
+*Playa AI*  
 *[Contact Information]*  
 *[Policy Repository URL]*
 
@@ -710,7 +721,7 @@ Welcome. Let's begin.
 ## Rollout Strategy
 
 ### Phase 1: Internal Adoption (Weeks 1-4)
-- Apply framework to all Playa AI Foundation projects
+- Apply framework to Playa AI projects
 - Train team on principles and practices
 - Implement technical controls where gaps exist
 - Document any adaptation decisions
