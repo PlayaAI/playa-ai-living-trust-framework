@@ -4,9 +4,9 @@
 > [!IMPORTANT]
 > **Status:** v0.1.0 public-review research draft. This repository is not legal advice, a certification, a deployable privacy notice, or a finalized standard. The synthesis below includes historical AI-generated draft material, proposed practices, aspirational governance, and placeholders that are **not current Playa AI commitments** unless separately verified and adopted.
 >
-> **License status:** Under review. No open-source or content license is currently granted unless and until an approved `LICENSE` file is added.
+> **License:** Framework text, diagrams, and templates are licensed under [CC BY-SA 4.0](LICENSE). Software and code are licensed under [Apache 2.0](LICENSE-CODE). Playa AI names, framework names, logos, and brand assets are excluded. See [LICENSING.md](LICENSING.md).
 >
-> **Maintainer:** Playa AI · Public-review questions and feedback: hello@playa-ai.org
+> **Maintainer:** Playa AI · Public-review questions and feedback: team@playa-ai.org
 
 **Analysis date:** January 25, 2026  
 **Public-review release:** v0.1.0 · July 15, 2026  
@@ -498,8 +498,8 @@ Leave No Trace also means environmental responsibility:
 ### The Philosophy
 This policy is itself a gift. We developed it not to protect ourselves but to model what data governance could be. We offer it freely for others to use, adapt, and improve.
 
-### Historical License Proposal — Not in Force
-This draft proposed **Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)**. No license is currently in force for this repository unless and until an approved `LICENSE` file is added. You may:
+### License for This Historical Draft
+This historical draft is part of the repository's framework content and is licensed under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**. Subject to that license, you may:
 - Use it as your own privacy policy
 - Modify it for your context
 - Build upon it for commercial or non-commercial purposes
@@ -508,6 +508,8 @@ You must:
 - Give appropriate credit to Playa AI
 - Indicate if changes were made
 - Share adaptations under the same license
+
+See [LICENSING.md](LICENSING.md) for the repository-wide scope, attribution guidance, code license, third-party-material treatment, and brand exclusions.
 
 ### Adaptation Guidance
 **For Small Projects:** The Core Principles and Rights sections can stand alone as a minimal policy. Add Practices relevant to your data flows.
